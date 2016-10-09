@@ -64,16 +64,19 @@
     <splash src="resources\ios\splash\Default@2x~iphone.png" width="640" height="960"/>
     <splash src="resources\ios\splash\Default~iphone.png" width="320" height="480"/>
   </platform>
-  <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
+  <preference name="webviewbounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="16"/>
   <preference name="BackupWebStorage" value="none"/>
-  <preference name="SplashScreenDelay" value="0"/>
-  <preference name="FadeSplashScreen" value="false"/>
-  <preference name="FadeSplashScreenDuration" value="0"/>
-  <preference name="SplashScreenBackgroundColor" value="0xFFFFFFFF"/>
   <preference name="SplashScreen" value="screen"/>
+  <preference name="AutoHideSplashScreen" value="false" />  
+  <preference name="SplashMaintainAspectRatio" value="true" />
+  <preference name="SplashScreenDelay" value="2000"/>
+  <preference name="SplashScreenBackgroundColor" value="0xFFFFFFFF"/>
+  <preference name="FadeSplashScreenDuration" value="500" />
+  <preference name="StatusBarBackgroundColor" value="#35c3b0" />
+  <preference name="ShowSplashScreenSpinner" value="false" />  
   <feature name="StatusBar">
     <param name="ios-package" onload="true" value="CDVStatusBar"/>
   </feature>
