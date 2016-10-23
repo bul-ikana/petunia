@@ -1,4 +1,11 @@
-result-card ion-row{
-	background-color: #35c3b0;
-	color: #FFFFFF;
+result-card ion-row {
+	color: map-get($colors, light);
+}
+
+result-card.leaf ion-row {
+	background-color: map-get($colors, primary);
+}
+
+result-card.flower ion-row {
+	background-color: map-get($colors, secondary);
 }

@@ -10,7 +10,7 @@ export class ResultCard {
   amount: number;
 
   constructor() {
-    this.concept = 'Dinero disponible:';
+    this.concept = 'Dinero disponible';
     this.amount = 500;
   }
 
