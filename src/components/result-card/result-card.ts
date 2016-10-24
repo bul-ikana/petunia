@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { 
+  Component,
+  Input
+} from '@angular/core';
 
 @Component({
   selector: 'result-card',
@@ -6,12 +9,11 @@ import { Component } from '@angular/core';
 })
 export class ResultCard {
 
-  concept: string;
-  amount: number;
+  @Input() concept: string;
+  @Input() amount: number;
 
   constructor() {
-    this.concept = 'Dinero disponible';
-    this.amount = 500;
+
   }
 
 }
