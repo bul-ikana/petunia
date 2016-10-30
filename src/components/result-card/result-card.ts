@@ -1,7 +1,9 @@
-import { 
+import {
   Component,
   Input
 } from '@angular/core';
+
+import { ResultCardModel } from './result-card-model'
 
 @Component({
   selector: 'result-card',
@@ -9,11 +11,8 @@ import {
 })
 export class ResultCard {
 
-  @Input() concept: string;
-  @Input() amount: number;
+  @Input() model: ResultCardModel;
 
-  constructor() {
-
-  }
+  constructor() { }
 
 }
