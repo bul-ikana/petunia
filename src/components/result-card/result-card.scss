@@ -1,0 +1,12 @@
+result-card ion-row {
+	color: map-get($colors, light);
+	margin-bottom: 3px;
+}
+
+result-card.leaf ion-row {
+	background-color: map-get($colors, primary);
+}
+
+result-card.flower ion-row {
+	background-color: map-get($colors, secondary);
+}
